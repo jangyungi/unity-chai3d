@@ -1,0 +1,13 @@
+<map id="chai3d::cGenericWidget" name="chai3d::cGenericWidget">
+<area shape="rect" id="node5" href="$classchai3d_1_1c_dial.html" title="This class implements a 2D dial widget. " alt="" coords="5,304,103,331"/>
+<area shape="rect" id="node6" href="$classchai3d_1_1c_level.html" title="This class implements a 2D level display widget. " alt="" coords="127,304,231,331"/>
+<area shape="rect" id="node7" href="$classchai3d_1_1c_panel.html" title="This class implements a 2D panel widget. " alt="" coords="256,304,364,331"/>
+<area shape="rect" id="node2" href="$classchai3d_1_1c_mesh.html" title="This class implements a 3D polygonal mesh. " alt="" coords="126,155,233,181"/>
+<area shape="rect" id="node3" href="$classchai3d_1_1c_generic_object.html" title="This class implements a base class for all 2D or 3D objects in CHAI3D. " alt="" coords="100,80,259,107"/>
+<area shape="rect" id="node4" href="$classchai3d_1_1c_generic_type.html" title="This class implements an abstract type. " alt="" coords="105,5,253,32"/>
+<area shape="rect" id="node8" href="$classchai3d_1_1c_bitmap.html" title="This class implements a 2D bitmap widget. " alt="" coords="49,379,165,405"/>
+<area shape="rect" id="node10" href="$classchai3d_1_1c_label.html" title="This class implements a 2D label widget to display one line of text. " alt="" coords="190,379,297,405"/>
+<area shape="rect" id="node11" href="$classchai3d_1_1c_scope.html" title="This class implements a 2D scope to display signals. " alt="" coords="321,379,433,405"/>
+<area shape="rect" id="node12" href="$classchai3d_1_1c_view_panel.html" title="This class implements a 2D display panel associated with a framebuffer. " alt="" coords="457,379,593,405"/>
+<area shape="rect" id="node9" href="$classchai3d_1_1c_background.html" title="This class implements a 2D background widget. " alt="" coords="35,453,179,480"/>
+</map>

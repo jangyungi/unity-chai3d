@@ -1,0 +1,8 @@
+<map id="chai3d::cGenericHapticDevice" name="chai3d::cGenericHapticDevice">
+<area shape="rect" id="node3" href="$classchai3d_1_1c_delta_device.html" title="This class implements an interface to all Force Dimension and Novint haptic devices. " alt="" coords="471,5,614,32"/>
+<area shape="rect" id="node4" href="$classchai3d_1_1c_leap_device.html" title="This class implements an interface to the Leap Motion tracker interface. " alt="" coords="472,56,613,83"/>
+<area shape="rect" id="node5" href="$classchai3d_1_1c_my_custom_device.html" title="This class is a interface to support custom haptic devices (template). " alt="" coords="455,107,631,133"/>
+<area shape="rect" id="node6" href="$classchai3d_1_1c_phantom_device.html" title="This class implements an interface to all 3D&#45;System Phantom haptic devices. " alt="" coords="460,157,625,184"/>
+<area shape="rect" id="node7" href="$classchai3d_1_1c_sixense_device.html" title="This class implements an interface to the Sixense Razor Hydra magnetic tracker interface. " alt="" coords="463,208,623,235"/>
+<area shape="rect" id="node2" href="$classchai3d_1_1c_generic_device.html" title="This class implements an abstract class for hardware devices. " alt="" coords="5,107,164,133"/>
+</map>
