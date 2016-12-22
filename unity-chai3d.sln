@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unity-chai3d.CSharp.Plugins", "unity-chai3d.CSharp.Plugins.csproj", "{721FF84E-1441-2CBF-F729-9AEC8EAFB391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unity-chai3d.CSharp", "unity-chai3d.CSharp.csproj", "{3BEBE657-BAE9-75D1-5C98-A1429387E689}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{721FF84E-1441-2CBF-F729-9AEC8EAFB391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{721FF84E-1441-2CBF-F729-9AEC8EAFB391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{721FF84E-1441-2CBF-F729-9AEC8EAFB391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{721FF84E-1441-2CBF-F729-9AEC8EAFB391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BEBE657-BAE9-75D1-5C98-A1429387E689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEBE657-BAE9-75D1-5C98-A1429387E689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEBE657-BAE9-75D1-5C98-A1429387E689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEBE657-BAE9-75D1-5C98-A1429387E689}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
