@@ -1,9 +1,0 @@
-﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-     Creating library ..\..\..\..\..\..\Assets\Plugins\UnityPlugin.lib and object ..\..\..\..\..\..\Assets\Plugins\UnityPlugin.exp
-  Generating code
-  71 of 238 functions (29.8%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    16 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  UnityPlugin.vcxproj -> C:\Users\cgvlab\Documents\UnityHapticVR\chai3d-3.1.1\modules\Unity\src\plugin\UnityPlugin\..\..\..\..\..\..\Assets\Plugins\UnityPlugin.dll
-  UnityPlugin.vcxproj -> ..\..\..\..\..\..\Assets\Plugins\UnityPlugin.pdb (Full PDB)

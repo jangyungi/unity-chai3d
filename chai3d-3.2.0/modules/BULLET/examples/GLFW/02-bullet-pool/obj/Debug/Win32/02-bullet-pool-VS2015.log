@@ -1,0 +1,3 @@
+﻿  02-bullet-pool.cpp
+02-bullet-pool.obj : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/SAFESEH'
+  02-bullet-pool-VS2015.vcxproj -> C:\Users\Oskar-MSI\Desktop\chai3d-3.2.0\modules\BULLET\examples\GLFW\02-bullet-pool\../../../bin/win-Win32/02-bullet-pool.exe

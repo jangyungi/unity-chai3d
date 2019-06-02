@@ -1,0 +1,343 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: El directorio Output no termina con una barra diagonal final. Esta instancia de compilación agregará la barra diagonal porque es necesaria para que se pueda evaluar correctamente el directorio Output.
+jmemnobs.obj : error LNK2005: ya se definió jpeg_get_small en jmemansi.obj
+jmemnobs.obj : error LNK2005: ya se definió jpeg_free_small en jmemansi.obj
+jmemnobs.obj : error LNK2005: ya se definió jpeg_get_large en jmemansi.obj
+jmemnobs.obj : error LNK2005: ya se definió jpeg_free_large en jmemansi.obj
+jmemnobs.obj : error LNK2005: ya se definió jpeg_mem_available en jmemansi.obj
+jmemnobs.obj : error LNK2005: ya se definió jpeg_open_backing_store en jmemansi.obj
+jmemnobs.obj : error LNK2005: ya se definió jpeg_mem_init en jmemansi.obj
+jmemnobs.obj : error LNK2005: ya se definió jpeg_mem_term en jmemansi.obj
+encoder_disabled.obj : error LNK2005: ya se definió theora_encode_init en encapiwrapper.obj
+encoder_disabled.obj : error LNK2005: ya se definió theora_encode_YUVin en encapiwrapper.obj
+encoder_disabled.obj : error LNK2005: ya se definió theora_encode_packetout en encapiwrapper.obj
+encoder_disabled.obj : error LNK2005: ya se definió theora_encode_header en encapiwrapper.obj
+encoder_disabled.obj : error LNK2005: ya se definió theora_encode_comment en encapiwrapper.obj
+encoder_disabled.obj : error LNK2005: ya se definió theora_encode_tables en encapiwrapper.obj
+encoder_disabled.obj : error LNK2005: ya se definió th_encode_alloc en encode.obj
+encoder_disabled.obj : error LNK2005: ya se definió th_encode_ctl en encode.obj
+encoder_disabled.obj : error LNK2005: ya se definió th_encode_flushheader en encode.obj
+encoder_disabled.obj : error LNK2005: ya se definió th_encode_ycbcr_in en encode.obj
+encoder_disabled.obj : error LNK2005: ya se definió th_encode_packetout en encode.obj
+encoder_disabled.obj : error LNK2005: ya se definió th_encode_free en encode.obj
+     Creando biblioteca C:\Users\Oskar-MSI\Desktop\aqui\chai3d.lib y objeto C:\Users\Oskar-MSI\Desktop\aqui\chai3d.exp
+glew.obj : error LNK2019: símbolo externo __imp_glGetString sin resolver al que se hace referencia en la función glewGetExtension
+glew.obj : error LNK2019: símbolo externo __imp_wglGetCurrentDC sin resolver al que se hace referencia en la función wglewGetExtension
+glew.obj : error LNK2019: símbolo externo __imp_wglGetProcAddress sin resolver al que se hace referencia en la función wglewContextInit
+CMesh.obj : error LNK2001: símbolo externo __imp_glColor4fv sin resolver
+CMultiPoint.obj : error LNK2001: símbolo externo __imp_glColor4fv sin resolver
+CMultiSegment.obj : error LNK2001: símbolo externo __imp_glColor4fv sin resolver
+CShapeLine.obj : error LNK2001: símbolo externo __imp_glColor4fv sin resolver
+CHapticPoint.obj : error LNK2001: símbolo externo __imp_glColor4fv sin resolver
+CLabel.obj : error LNK2001: símbolo externo __imp_glColor4fv sin resolver
+CScope.obj : error LNK2001: símbolo externo __imp_glColor4fv sin resolver
+CGenericObject.obj : error LNK2001: símbolo externo __imp_glColor4fv sin resolver
+CCollisionAABB.obj : error LNK2001: símbolo externo __imp_glColor4fv sin resolver
+CFont.obj : error LNK2001: símbolo externo __imp_glColor4fv sin resolver
+CPositionalLight.obj : error LNK2001: símbolo externo __imp_glColor4fv sin resolver
+CSpotLight.obj : error LNK2001: símbolo externo __imp_glColor4fv sin resolver
+CMultiSegment.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CShapeLine.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CWorld.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CScope.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CGenericObject.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CMesh.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CMultiPoint.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CTexture2d.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CTexture3d.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CHapticPoint.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CLabel.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CPositionalLight.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CShadowMap.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CSpotLight.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CTexture1d.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CDraw3D.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CFog.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CFont.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CDirectionalLight.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CCollisionAABB.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CCamera.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CFrameBuffer.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CAlgorithmFingerProxy.obj : error LNK2001: símbolo externo __imp_glDisable sin resolver
+CShapeLine.obj : error LNK2019: símbolo externo __imp_glEnable sin resolver al que se hace referencia en la función "protected: virtual void __cdecl chai3d::cShapeLine::render(struct chai3d::cRenderOptions &)" (?render@cShapeLine@chai3d@@MEAAXAEAUcRenderOptions@2@@Z)
+CWorld.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CGenericObject.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CMesh.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CMultiPoint.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CMultiSegment.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CTexture3d.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CHapticPoint.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CLabel.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CScope.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CShadowMap.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CSpotLight.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CTexture1d.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CTexture2d.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CFog.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CFont.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CDirectionalLight.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CPositionalLight.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CCollisionAABB.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CCamera.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CAlgorithmFingerProxy.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CDraw3D.obj : error LNK2001: símbolo externo __imp_glEnable sin resolver
+CGenericObject.obj : error LNK2001: símbolo externo __imp_glLineWidth sin resolver
+CMesh.obj : error LNK2001: símbolo externo __imp_glLineWidth sin resolver
+CMultiSegment.obj : error LNK2001: símbolo externo __imp_glLineWidth sin resolver
+CShapeLine.obj : error LNK2001: símbolo externo __imp_glLineWidth sin resolver
+CCollisionAABB.obj : error LNK2001: símbolo externo __imp_glLineWidth sin resolver
+CAlgorithmFingerProxy.obj : error LNK2001: símbolo externo __imp_glLineWidth sin resolver
+CSpotLight.obj : error LNK2001: símbolo externo __imp_glLineWidth sin resolver
+CScope.obj : error LNK2001: símbolo externo __imp_glLineWidth sin resolver
+CCamera.obj : error LNK2019: símbolo externo __imp_glBlendFunc sin resolver al que se hace referencia en la función "protected: void __cdecl chai3d::cCamera::renderLayer(class chai3d::cGenericObject *,int,int)" (?renderLayer@cCamera@chai3d@@IEAAXPEAVcGenericObject@2@HH@Z)
+CFont.obj : error LNK2001: símbolo externo __imp_glBlendFunc sin resolver
+CGenericObject.obj : error LNK2001: símbolo externo __imp_glBlendFunc sin resolver
+CCamera.obj : error LNK2019: símbolo externo __imp_glClear sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CShadowMap.obj : error LNK2001: símbolo externo __imp_glClear sin resolver
+CCamera.obj : error LNK2019: símbolo externo __imp_glClearColor sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CWorld.obj : error LNK2001: símbolo externo __imp_glColorMaterial sin resolver
+CCamera.obj : error LNK2001: símbolo externo __imp_glColorMaterial sin resolver
+CDraw3D.obj : error LNK2001: símbolo externo __imp_glColorMaterial sin resolver
+CGenericObject.obj : error LNK2001: símbolo externo __imp_glColorMaterial sin resolver
+CMesh.obj : error LNK2001: símbolo externo __imp_glColorMaterial sin resolver
+CCamera.obj : error LNK2019: símbolo externo __imp_glDepthFunc sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CCamera.obj : error LNK2019: símbolo externo __imp_glDepthMask sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CShadowMap.obj : error LNK2001: símbolo externo __imp_glDepthMask sin resolver
+CGenericObject.obj : error LNK2001: símbolo externo __imp_glDepthMask sin resolver
+CCamera.obj : error LNK2019: símbolo externo __imp_glDrawBuffer sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CFrameBuffer.obj : error LNK2001: símbolo externo __imp_glDrawBuffer sin resolver
+CShadowMap.obj : error LNK2001: símbolo externo __imp_glDrawBuffer sin resolver
+CCamera.obj : error LNK2019: símbolo externo __imp_glFrontFace sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CCamera.obj : error LNK2019: símbolo externo __imp_glFrustum sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CCamera.obj : error LNK2019: símbolo externo __imp_glGetBooleanv sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CCamera.obj : error LNK2019: símbolo externo __imp_glGetDoublev sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CShadowMap.obj : error LNK2001: símbolo externo __imp_glGetDoublev sin resolver
+CWorld.obj : error LNK2001: símbolo externo __imp_glGetDoublev sin resolver
+CCamera.obj : error LNK2019: símbolo externo __imp_glHint sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CFog.obj : error LNK2001: símbolo externo __imp_glHint sin resolver
+CCamera.obj : error LNK2019: símbolo externo __imp_glLoadIdentity sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CShadowMap.obj : error LNK2001: símbolo externo __imp_glLoadIdentity sin resolver
+CCamera.obj : error LNK2019: símbolo externo __imp_glLoadMatrixd sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CCamera.obj : error LNK2019: símbolo externo __imp_glMatrixMode sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CShadowMap.obj : error LNK2001: símbolo externo __imp_glMatrixMode sin resolver
+CCamera.obj : error LNK2019: símbolo externo __imp_glOrtho sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CTexture3d.obj : error LNK2001: símbolo externo __imp_glPixelStorei sin resolver
+CCamera.obj : error LNK2001: símbolo externo __imp_glPixelStorei sin resolver
+CFrameBuffer.obj : error LNK2001: símbolo externo __imp_glPixelStorei sin resolver
+CTexture1d.obj : error LNK2001: símbolo externo __imp_glPixelStorei sin resolver
+CTexture2d.obj : error LNK2001: símbolo externo __imp_glPixelStorei sin resolver
+CGenericObject.obj : error LNK2001: símbolo externo __imp_glPopMatrix sin resolver
+CCamera.obj : error LNK2001: símbolo externo __imp_glPopMatrix sin resolver
+CDraw3D.obj : error LNK2001: símbolo externo __imp_glPopMatrix sin resolver
+CLabel.obj : error LNK2001: símbolo externo __imp_glPopMatrix sin resolver
+CScope.obj : error LNK2001: símbolo externo __imp_glPopMatrix sin resolver
+CGenericObject.obj : error LNK2001: símbolo externo __imp_glPushMatrix sin resolver
+CCamera.obj : error LNK2001: símbolo externo __imp_glPushMatrix sin resolver
+CDraw3D.obj : error LNK2001: símbolo externo __imp_glPushMatrix sin resolver
+CLabel.obj : error LNK2001: símbolo externo __imp_glPushMatrix sin resolver
+CScope.obj : error LNK2001: símbolo externo __imp_glPushMatrix sin resolver
+CCamera.obj : error LNK2019: símbolo externo __imp_glReadPixels sin resolver al que se hace referencia en la función "public: void __cdecl chai3d::cCamera::copyImageBuffer(class std::shared_ptr<class chai3d::cImage>)" (?copyImageBuffer@cCamera@chai3d@@QEAAXV?$shared_ptr@VcImage@chai3d@@@std@@@Z)
+CCamera.obj : error LNK2019: símbolo externo __imp_glScalef sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CShadowMap.obj : error LNK2001: símbolo externo __imp_glScalef sin resolver
+CShapeEllipsoid.obj : error LNK2001: símbolo externo __imp_glScalef sin resolver
+CCamera.obj : error LNK2019: símbolo externo __imp_glShadeModel sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CFrameBuffer.obj : error LNK2001: símbolo externo __imp_glShadeModel sin resolver
+CShadowMap.obj : error LNK2001: símbolo externo __imp_glShadeModel sin resolver
+CCamera.obj : error LNK2019: símbolo externo __imp_glViewport sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CShadowMap.obj : error LNK2001: símbolo externo __imp_glViewport sin resolver
+CCamera.obj : error LNK2019: símbolo externo gluPerspective sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CShadowMap.obj : error LNK2001: símbolo externo gluPerspective sin resolver
+CCamera.obj : error LNK2019: símbolo externo gluLookAt sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cCamera::renderView(int,int,enum chai3d::cEyeMode,bool)" (?renderView@cCamera@chai3d@@UEAAXHHW4cEyeMode@2@_N@Z)
+CShadowMap.obj : error LNK2001: símbolo externo gluLookAt sin resolver
+CTexture3d.obj : error LNK2001: símbolo externo __imp_glBindTexture sin resolver
+CFrameBuffer.obj : error LNK2001: símbolo externo __imp_glBindTexture sin resolver
+CShadowMap.obj : error LNK2001: símbolo externo __imp_glBindTexture sin resolver
+CTexture1d.obj : error LNK2001: símbolo externo __imp_glBindTexture sin resolver
+CTexture2d.obj : error LNK2001: símbolo externo __imp_glBindTexture sin resolver
+CFrameBuffer.obj : error LNK2019: símbolo externo __imp_glColorMask sin resolver al que se hace referencia en la función "public: void __cdecl chai3d::cFrameBuffer::renderView(enum chai3d::cEyeMode)" (?renderView@cFrameBuffer@chai3d@@QEAAXW4cEyeMode@2@@Z)
+CShadowMap.obj : error LNK2001: símbolo externo __imp_glColorMask sin resolver
+CVoxelObject.obj : error LNK2001: símbolo externo __imp_glCullFace sin resolver
+CFrameBuffer.obj : error LNK2001: símbolo externo __imp_glCullFace sin resolver
+CShadowMap.obj : error LNK2001: símbolo externo __imp_glCullFace sin resolver
+CGenericObject.obj : error LNK2001: símbolo externo __imp_glCullFace sin resolver
+CMesh.obj : error LNK2001: símbolo externo __imp_glCullFace sin resolver
+CFrameBuffer.obj : error LNK2019: símbolo externo __imp_glGenTextures sin resolver al que se hace referencia en la función "public: bool __cdecl chai3d::cFrameBuffer::renderInitialize(void)" (?renderInitialize@cFrameBuffer@chai3d@@QEAA_NXZ)
+CTexture1d.obj : error LNK2001: símbolo externo __imp_glGenTextures sin resolver
+CTexture2d.obj : error LNK2001: símbolo externo __imp_glGenTextures sin resolver
+CTexture3d.obj : error LNK2001: símbolo externo __imp_glGenTextures sin resolver
+CFrameBuffer.obj : error LNK2019: símbolo externo __imp_glGetTexImage sin resolver al que se hace referencia en la función "public: void __cdecl chai3d::cFrameBuffer::copyImageBuffer(class std::shared_ptr<class chai3d::cImage>)" (?copyImageBuffer@cFrameBuffer@chai3d@@QEAAXV?$shared_ptr@VcImage@chai3d@@@std@@@Z)
+CFrameBuffer.obj : error LNK2019: símbolo externo __imp_glPopAttrib sin resolver al que se hace referencia en la función "public: void __cdecl chai3d::cFrameBuffer::renderView(enum chai3d::cEyeMode)" (?renderView@cFrameBuffer@chai3d@@QEAAXW4cEyeMode@2@@Z)
+CSpotLight.obj : error LNK2001: símbolo externo __imp_glPopAttrib sin resolver
+CFrameBuffer.obj : error LNK2019: símbolo externo __imp_glPushAttrib sin resolver al que se hace referencia en la función "public: bool __cdecl chai3d::cFrameBuffer::renderInitialize(void)" (?renderInitialize@cFrameBuffer@chai3d@@QEAA_NXZ)
+CSpotLight.obj : error LNK2001: símbolo externo __imp_glPushAttrib sin resolver
+CFrameBuffer.obj : error LNK2019: símbolo externo __imp_glReadBuffer sin resolver al que se hace referencia en la función "public: bool __cdecl chai3d::cFrameBuffer::renderInitialize(void)" (?renderInitialize@cFrameBuffer@chai3d@@QEAA_NXZ)
+CShadowMap.obj : error LNK2001: símbolo externo __imp_glReadBuffer sin resolver
+CFrameBuffer.obj : error LNK2019: símbolo externo __imp_glTexImage2D sin resolver al que se hace referencia en la función "public: bool __cdecl chai3d::cFrameBuffer::renderInitialize(void)" (?renderInitialize@cFrameBuffer@chai3d@@QEAA_NXZ)
+CTexture2d.obj : error LNK2001: símbolo externo __imp_glTexImage2D sin resolver
+CTexture3d.obj : error LNK2001: símbolo externo __imp_glTexParameteri sin resolver
+CFrameBuffer.obj : error LNK2001: símbolo externo __imp_glTexParameteri sin resolver
+CShadowMap.obj : error LNK2001: símbolo externo __imp_glTexParameteri sin resolver
+CTexture1d.obj : error LNK2001: símbolo externo __imp_glTexParameteri sin resolver
+CTexture2d.obj : error LNK2001: símbolo externo __imp_glTexParameteri sin resolver
+CMultiSegment.obj : error LNK2001: símbolo externo __imp_glBegin sin resolver
+CShapeBox.obj : error LNK2001: símbolo externo __imp_glBegin sin resolver
+CShapeLine.obj : error LNK2001: símbolo externo __imp_glBegin sin resolver
+CHapticPoint.obj : error LNK2001: símbolo externo __imp_glBegin sin resolver
+CScope.obj : error LNK2001: símbolo externo __imp_glBegin sin resolver
+CMesh.obj : error LNK2001: símbolo externo __imp_glBegin sin resolver
+CMultiPoint.obj : error LNK2001: símbolo externo __imp_glBegin sin resolver
+CAlgorithmFingerProxy.obj : error LNK2001: símbolo externo __imp_glBegin sin resolver
+CDraw3D.obj : error LNK2001: símbolo externo __imp_glBegin sin resolver
+CFont.obj : error LNK2001: símbolo externo __imp_glBegin sin resolver
+CSpotLight.obj : error LNK2001: símbolo externo __imp_glBegin sin resolver
+CAlgorithmFingerProxy.obj : error LNK2019: símbolo externo __imp_glColor3f sin resolver al que se hace referencia en la función "protected: virtual void __cdecl chai3d::cAlgorithmFingerProxy::render(struct chai3d::cRenderOptions &)" (?render@cAlgorithmFingerProxy@chai3d@@MEAAXAEAUcRenderOptions@2@@Z)
+CDraw3D.obj : error LNK2001: símbolo externo __imp_glColor3f sin resolver
+CSpotLight.obj : error LNK2001: símbolo externo __imp_glColor3f sin resolver
+CMesh.obj : error LNK2001: símbolo externo __imp_glColor3f sin resolver
+CMultiSegment.obj : error LNK2001: símbolo externo __imp_glEnd sin resolver
+CShapeBox.obj : error LNK2001: símbolo externo __imp_glEnd sin resolver
+CShapeLine.obj : error LNK2001: símbolo externo __imp_glEnd sin resolver
+CHapticPoint.obj : error LNK2001: símbolo externo __imp_glEnd sin resolver
+CScope.obj : error LNK2001: símbolo externo __imp_glEnd sin resolver
+CMesh.obj : error LNK2001: símbolo externo __imp_glEnd sin resolver
+CMultiPoint.obj : error LNK2001: símbolo externo __imp_glEnd sin resolver
+CAlgorithmFingerProxy.obj : error LNK2001: símbolo externo __imp_glEnd sin resolver
+CDraw3D.obj : error LNK2001: símbolo externo __imp_glEnd sin resolver
+CFont.obj : error LNK2001: símbolo externo __imp_glEnd sin resolver
+CSpotLight.obj : error LNK2001: símbolo externo __imp_glEnd sin resolver
+CMultiPoint.obj : error LNK2001: símbolo externo __imp_glVertex3dv sin resolver
+CMultiSegment.obj : error LNK2001: símbolo externo __imp_glVertex3dv sin resolver
+CShapeLine.obj : error LNK2001: símbolo externo __imp_glVertex3dv sin resolver
+CAlgorithmFingerProxy.obj : error LNK2001: símbolo externo __imp_glVertex3dv sin resolver
+CDraw3D.obj : error LNK2001: símbolo externo __imp_glVertex3dv sin resolver
+CHapticPoint.obj : error LNK2001: símbolo externo __imp_glVertex3dv sin resolver
+CMesh.obj : error LNK2001: símbolo externo __imp_glVertex3dv sin resolver
+CDisplayList.obj : error LNK2019: símbolo externo __imp_glCallList sin resolver al que se hace referencia en la función "public: bool __cdecl chai3d::cDisplayList::render(bool)" (?render@cDisplayList@chai3d@@QEAA_N_N@Z)
+CDisplayList.obj : error LNK2019: símbolo externo __imp_glDeleteLists sin resolver al que se hace referencia en la función "public: bool __cdecl chai3d::cDisplayList::render(bool)" (?render@cDisplayList@chai3d@@QEAA_N_N@Z)
+CDisplayList.obj : error LNK2019: símbolo externo __imp_glEndList sin resolver al que se hace referencia en la función "public: void __cdecl chai3d::cDisplayList::end(bool)" (?end@cDisplayList@chai3d@@QEAAX_N@Z)
+CDisplayList.obj : error LNK2019: símbolo externo __imp_glGenLists sin resolver al que se hace referencia en la función "public: bool __cdecl chai3d::cDisplayList::begin(bool)" (?begin@cDisplayList@chai3d@@QEAA_N_N@Z)
+CDisplayList.obj : error LNK2019: símbolo externo __imp_glNewList sin resolver al que se hace referencia en la función "public: bool __cdecl chai3d::cDisplayList::begin(bool)" (?begin@cDisplayList@chai3d@@QEAA_N_N@Z)
+CMultiSegment.obj : error LNK2001: símbolo externo __imp_glDisableClientState sin resolver
+CDraw3D.obj : error LNK2001: símbolo externo __imp_glDisableClientState sin resolver
+CGenericObject.obj : error LNK2001: símbolo externo __imp_glDisableClientState sin resolver
+CMesh.obj : error LNK2001: símbolo externo __imp_glDisableClientState sin resolver
+CMultiPoint.obj : error LNK2001: símbolo externo __imp_glDisableClientState sin resolver
+CDraw3D.obj : error LNK2019: símbolo externo __imp_glDrawArrays sin resolver al que se hace referencia en la función "void __cdecl chai3d::cDrawFrame(double const &,double const &)" (?cDrawFrame@chai3d@@YAXAEBN0@Z)
+CMultiPoint.obj : error LNK2001: símbolo externo __imp_glEnableClientState sin resolver
+CMultiSegment.obj : error LNK2001: símbolo externo __imp_glEnableClientState sin resolver
+CDraw3D.obj : error LNK2001: símbolo externo __imp_glEnableClientState sin resolver
+CPointArray.obj : error LNK2001: símbolo externo __imp_glEnableClientState sin resolver
+CSegmentArray.obj : error LNK2001: símbolo externo __imp_glEnableClientState sin resolver
+CMesh.obj : error LNK2001: símbolo externo __imp_glEnableClientState sin resolver
+CDraw3D.obj : error LNK2019: símbolo externo __imp_glMaterialfv sin resolver al que se hace referencia en la función "void __cdecl chai3d::cDrawFrame(double const &,double const &)" (?cDrawFrame@chai3d@@YAXAEBN0@Z)
+CMaterial.obj : error LNK2001: símbolo externo __imp_glMaterialfv sin resolver
+CDraw3D.obj : error LNK2019: símbolo externo __imp_glMateriali sin resolver al que se hace referencia en la función "void __cdecl chai3d::cDrawFrame(double const &,double const &)" (?cDrawFrame@chai3d@@YAXAEBN0@Z)
+CMaterial.obj : error LNK2001: símbolo externo __imp_glMateriali sin resolver
+CDraw3D.obj : error LNK2019: símbolo externo __imp_glMultMatrixd sin resolver al que se hace referencia en la función "void __cdecl chai3d::cLookAt(struct chai3d::cVector3d const &,struct chai3d::cVector3d const &,struct chai3d::cVector3d const &)" (?cLookAt@chai3d@@YAXAEBUcVector3d@1@00@Z)
+CGenericObject.obj : error LNK2001: símbolo externo __imp_glMultMatrixd sin resolver
+CDraw3D.obj : error LNK2019: símbolo externo __imp_glNormal3dv sin resolver al que se hace referencia en la función "void __cdecl chai3d::cDrawSolidTorus(double const &,double const &,int,int)" (?cDrawSolidTorus@chai3d@@YAXAEBN0HH@Z)
+CMesh.obj : error LNK2001: símbolo externo __imp_glNormal3dv sin resolver
+CDraw3D.obj : error LNK2019: símbolo externo __imp_glNormalPointer sin resolver al que se hace referencia en la función "void __cdecl chai3d::cDrawFrame(double const &,double const &)" (?cDrawFrame@chai3d@@YAXAEBN0@Z)
+CMultiPoint.obj : error LNK2001: símbolo externo __imp_glPolygonMode sin resolver
+CMultiSegment.obj : error LNK2001: símbolo externo __imp_glPolygonMode sin resolver
+CDraw3D.obj : error LNK2001: símbolo externo __imp_glPolygonMode sin resolver
+CShadowMap.obj : error LNK2001: símbolo externo __imp_glPolygonMode sin resolver
+CGenericObject.obj : error LNK2001: símbolo externo __imp_glPolygonMode sin resolver
+CMesh.obj : error LNK2001: símbolo externo __imp_glPolygonMode sin resolver
+CDraw3D.obj : error LNK2019: símbolo externo __imp_glRotatef sin resolver al que se hace referencia en la función "void __cdecl chai3d::cDrawFrame(double const &,double const &)" (?cDrawFrame@chai3d@@YAXAEBN0@Z)
+CDraw3D.obj : error LNK2019: símbolo externo __imp_glScaled sin resolver al que se hace referencia en la función "void __cdecl chai3d::cDrawFrame(double const &,double const &)" (?cDrawFrame@chai3d@@YAXAEBN0@Z)
+CDraw3D.obj : error LNK2019: símbolo externo __imp_glTranslated sin resolver al que se hace referencia en la función "void __cdecl chai3d::cDrawArrow(struct chai3d::cVector3d const &,struct chai3d::cVector3d const &,double)" (?cDrawArrow@chai3d@@YAXAEBUcVector3d@1@0N@Z)
+CLabel.obj : error LNK2001: símbolo externo __imp_glTranslated sin resolver
+CScope.obj : error LNK2001: símbolo externo __imp_glTranslated sin resolver
+CShapeCylinder.obj : error LNK2001: símbolo externo __imp_glTranslated sin resolver
+CMesh.obj : error LNK2001: símbolo externo __imp_glVertex3d sin resolver
+CShapeBox.obj : error LNK2001: símbolo externo __imp_glVertex3d sin resolver
+CDraw3D.obj : error LNK2001: símbolo externo __imp_glVertex3d sin resolver
+CFont.obj : error LNK2001: símbolo externo __imp_glVertex3d sin resolver
+CSpotLight.obj : error LNK2001: símbolo externo __imp_glVertex3d sin resolver
+CScope.obj : error LNK2001: símbolo externo __imp_glVertex3d sin resolver
+CMultiPoint.obj : error LNK2001: símbolo externo __imp_glVertexPointer sin resolver
+CMultiSegment.obj : error LNK2001: símbolo externo __imp_glVertexPointer sin resolver
+CDraw3D.obj : error LNK2001: símbolo externo __imp_glVertexPointer sin resolver
+CPointArray.obj : error LNK2001: símbolo externo __imp_glVertexPointer sin resolver
+CSegmentArray.obj : error LNK2001: símbolo externo __imp_glVertexPointer sin resolver
+CMesh.obj : error LNK2001: símbolo externo __imp_glVertexPointer sin resolver
+CDraw3D.obj : error LNK2019: símbolo externo gluNewQuadric sin resolver al que se hace referencia en la función "void __cdecl chai3d::cDrawSphere(double const &,unsigned int,unsigned int)" (?cDrawSphere@chai3d@@YAXAEBNII@Z)
+CShapeCylinder.obj : error LNK2001: símbolo externo gluNewQuadric sin resolver
+CShapeSphere.obj : error LNK2001: símbolo externo gluNewQuadric sin resolver
+CShapeEllipsoid.obj : error LNK2001: símbolo externo gluNewQuadric sin resolver
+CDraw3D.obj : error LNK2019: símbolo externo gluDeleteQuadric sin resolver al que se hace referencia en la función "void __cdecl chai3d::cDrawSphere(double const &,unsigned int,unsigned int)" (?cDrawSphere@chai3d@@YAXAEBNII@Z)
+CShapeCylinder.obj : error LNK2001: símbolo externo gluDeleteQuadric sin resolver
+CShapeSphere.obj : error LNK2001: símbolo externo gluDeleteQuadric sin resolver
+CShapeEllipsoid.obj : error LNK2001: símbolo externo gluDeleteQuadric sin resolver
+CDraw3D.obj : error LNK2019: símbolo externo gluQuadricNormals sin resolver al que se hace referencia en la función "void __cdecl chai3d::cDrawSphere(double const &,unsigned int,unsigned int)" (?cDrawSphere@chai3d@@YAXAEBNII@Z)
+CShapeCylinder.obj : error LNK2001: símbolo externo gluQuadricNormals sin resolver
+CShapeSphere.obj : error LNK2001: símbolo externo gluQuadricNormals sin resolver
+CShapeEllipsoid.obj : error LNK2001: símbolo externo gluQuadricNormals sin resolver
+CDraw3D.obj : error LNK2019: símbolo externo gluQuadricDrawStyle sin resolver al que se hace referencia en la función "void __cdecl chai3d::cDrawSphere(double const &,unsigned int,unsigned int)" (?cDrawSphere@chai3d@@YAXAEBNII@Z)
+CShapeCylinder.obj : error LNK2001: símbolo externo gluQuadricDrawStyle sin resolver
+CShapeSphere.obj : error LNK2001: símbolo externo gluQuadricDrawStyle sin resolver
+CShapeEllipsoid.obj : error LNK2001: símbolo externo gluQuadricDrawStyle sin resolver
+CDraw3D.obj : error LNK2019: símbolo externo gluCylinder sin resolver al que se hace referencia en la función "void __cdecl chai3d::cDrawArrow(struct chai3d::cVector3d const &,struct chai3d::cVector3d const &,double)" (?cDrawArrow@chai3d@@YAXAEBUcVector3d@1@0N@Z)
+CShapeCylinder.obj : error LNK2001: símbolo externo gluCylinder sin resolver
+CDraw3D.obj : error LNK2019: símbolo externo gluDisk sin resolver al que se hace referencia en la función "void __cdecl chai3d::cDrawArrow(struct chai3d::cVector3d const &,struct chai3d::cVector3d const &,double)" (?cDrawArrow@chai3d@@YAXAEBUcVector3d@1@0N@Z)
+CShapeCylinder.obj : error LNK2001: símbolo externo gluDisk sin resolver
+CDraw3D.obj : error LNK2019: símbolo externo gluSphere sin resolver al que se hace referencia en la función "void __cdecl chai3d::cDrawSphere(double const &,unsigned int,unsigned int)" (?cDrawSphere@chai3d@@YAXAEBNII@Z)
+CShapeSphere.obj : error LNK2001: símbolo externo gluSphere sin resolver
+CShapeEllipsoid.obj : error LNK2001: símbolo externo gluSphere sin resolver
+CFog.obj : error LNK2019: símbolo externo __imp_glFogf sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cFog::render(struct chai3d::cRenderOptions &)" (?render@cFog@chai3d@@UEAAXAEAUcRenderOptions@2@@Z)
+CFog.obj : error LNK2019: símbolo externo __imp_glFogfv sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cFog::render(struct chai3d::cRenderOptions &)" (?render@cFog@chai3d@@UEAAXAEAUcRenderOptions@2@@Z)
+CFog.obj : error LNK2019: símbolo externo __imp_glFogi sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cFog::render(struct chai3d::cRenderOptions &)" (?render@cFog@chai3d@@UEAAXAEAUcRenderOptions@2@@Z)
+CFont.obj : error LNK2019: símbolo externo __imp_glNormal3d sin resolver al que se hace referencia en la función "public: double __cdecl chai3d::cFont::renderText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct chai3d::cColorf const &,double,double,double,struct chai3d::cRenderOptions &)" (?renderText@cFont@chai3d@@QEAANAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUcColorf@2@NNNAEAUcRenderOptions@2@@Z)
+CShapeBox.obj : error LNK2001: símbolo externo __imp_glNormal3d sin resolver
+CMultiSegment.obj : error LNK2001: símbolo externo __imp_glDrawElements sin resolver
+CPointArray.obj : error LNK2001: símbolo externo __imp_glDrawElements sin resolver
+CSegmentArray.obj : error LNK2001: símbolo externo __imp_glDrawElements sin resolver
+CMesh.obj : error LNK2001: símbolo externo __imp_glDrawElements sin resolver
+CMultiPoint.obj : error LNK2001: símbolo externo __imp_glDrawElements sin resolver
+CDirectionalLight.obj : error LNK2019: símbolo externo __imp_glLightModeli sin resolver al que se hace referencia en la función "protected: virtual void __cdecl chai3d::cDirectionalLight::renderLightSource(struct chai3d::cRenderOptions &)" (?renderLightSource@cDirectionalLight@chai3d@@MEAAXAEAUcRenderOptions@2@@Z)
+CPositionalLight.obj : error LNK2001: símbolo externo __imp_glLightModeli sin resolver
+CSpotLight.obj : error LNK2001: símbolo externo __imp_glLightModeli sin resolver
+CDirectionalLight.obj : error LNK2019: símbolo externo __imp_glLightf sin resolver al que se hace referencia en la función "protected: virtual void __cdecl chai3d::cDirectionalLight::renderLightSource(struct chai3d::cRenderOptions &)" (?renderLightSource@cDirectionalLight@chai3d@@MEAAXAEAUcRenderOptions@2@@Z)
+CPositionalLight.obj : error LNK2001: símbolo externo __imp_glLightf sin resolver
+CSpotLight.obj : error LNK2001: símbolo externo __imp_glLightf sin resolver
+CDirectionalLight.obj : error LNK2019: símbolo externo __imp_glLightfv sin resolver al que se hace referencia en la función "protected: virtual void __cdecl chai3d::cDirectionalLight::renderLightSource(struct chai3d::cRenderOptions &)" (?renderLightSource@cDirectionalLight@chai3d@@MEAAXAEAUcRenderOptions@2@@Z)
+CPositionalLight.obj : error LNK2001: símbolo externo __imp_glLightfv sin resolver
+CSpotLight.obj : error LNK2001: símbolo externo __imp_glLightfv sin resolver
+CShadowMap.obj : error LNK2019: símbolo externo __imp_glAlphaFunc sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cShadowMap::render(struct chai3d::cRenderOptions &)" (?render@cShadowMap@chai3d@@UEAAXAEAUcRenderOptions@2@@Z)
+CShadowMap.obj : error LNK2019: símbolo externo __imp_glPolygonOffset sin resolver al que se hace referencia en la función "public: bool __cdecl chai3d::cShadowMap::updateMap(class chai3d::cWorld *,struct chai3d::cVector3d const &,struct chai3d::cVector3d const &,struct chai3d::cVector3d const &,double,double,double,double,double)" (?updateMap@cShadowMap@chai3d@@QEAA_NPEAVcWorld@2@AEBUcVector3d@2@11NNNNN@Z)
+CMesh.obj : error LNK2001: símbolo externo __imp_glPolygonOffset sin resolver
+CShadowMap.obj : error LNK2019: símbolo externo __imp_glTexGendv sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cShadowMap::render(struct chai3d::cRenderOptions &)" (?render@cShadowMap@chai3d@@UEAAXAEAUcRenderOptions@2@@Z)
+CShadowMap.obj : error LNK2019: símbolo externo __imp_glTexGeni sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cShadowMap::render(struct chai3d::cRenderOptions &)" (?render@cShadowMap@chai3d@@UEAAXAEAUcRenderOptions@2@@Z)
+CTexture1d.obj : error LNK2001: símbolo externo __imp_glTexGeni sin resolver
+CTexture2d.obj : error LNK2001: símbolo externo __imp_glTexGeni sin resolver
+CTexture3d.obj : error LNK2001: símbolo externo __imp_glTexGeni sin resolver
+CSpotLight.obj : error LNK2019: símbolo externo __imp_glLineStipple sin resolver al que se hace referencia en la función "protected: virtual void __cdecl chai3d::cSpotLight::render(struct chai3d::cRenderOptions &)" (?render@cSpotLight@chai3d@@MEAAXAEAUcRenderOptions@2@@Z)
+CMultiSegment.obj : error LNK2001: símbolo externo __imp_glLineStipple sin resolver
+CShapeLine.obj : error LNK2001: símbolo externo __imp_glLineStipple sin resolver
+CMesh.obj : error LNK2001: símbolo externo __imp_glColor4f sin resolver
+CTexture1d.obj : error LNK2001: símbolo externo __imp_glColor4f sin resolver
+CTexture2d.obj : error LNK2001: símbolo externo __imp_glColor4f sin resolver
+CTexture3d.obj : error LNK2001: símbolo externo __imp_glColor4f sin resolver
+CGenericObject.obj : error LNK2001: símbolo externo __imp_glColor4f sin resolver
+CTexture1d.obj : error LNK2019: símbolo externo __imp_glDeleteTextures sin resolver al que se hace referencia en la función "public: virtual __cdecl chai3d::cTexture1d::~cTexture1d(void)" (??1cTexture1d@chai3d@@UEAA@XZ)
+CTexture2d.obj : error LNK2001: símbolo externo __imp_glDeleteTextures sin resolver
+CTexture3d.obj : error LNK2001: símbolo externo __imp_glDeleteTextures sin resolver
+CTexture1d.obj : error LNK2019: símbolo externo __imp_glIsTexture sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cTexture1d::renderInitialize(struct chai3d::cRenderOptions &)" (?renderInitialize@cTexture1d@chai3d@@UEAAXAEAUcRenderOptions@2@@Z)
+CTexture2d.obj : error LNK2001: símbolo externo __imp_glIsTexture sin resolver
+CTexture3d.obj : error LNK2001: símbolo externo __imp_glIsTexture sin resolver
+CTexture1d.obj : error LNK2019: símbolo externo __imp_glTexEnvfv sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cTexture1d::renderInitialize(struct chai3d::cRenderOptions &)" (?renderInitialize@cTexture1d@chai3d@@UEAAXAEAUcRenderOptions@2@@Z)
+CTexture2d.obj : error LNK2001: símbolo externo __imp_glTexEnvfv sin resolver
+CTexture3d.obj : error LNK2001: símbolo externo __imp_glTexEnvfv sin resolver
+CTexture1d.obj : error LNK2019: símbolo externo __imp_glTexEnvi sin resolver al que se hace referencia en la función "public: virtual void __cdecl chai3d::cTexture1d::renderInitialize(struct chai3d::cRenderOptions &)" (?renderInitialize@cTexture1d@chai3d@@UEAAXAEAUcRenderOptions@2@@Z)
+CTexture2d.obj : error LNK2001: símbolo externo __imp_glTexEnvi sin resolver
+CTexture3d.obj : error LNK2001: símbolo externo __imp_glTexEnvi sin resolver
+CTexture1d.obj : error LNK2019: símbolo externo __imp_glTexImage1D sin resolver al que se hace referencia en la función "protected: virtual void __cdecl chai3d::cTexture1d::update(struct chai3d::cRenderOptions &)" (?update@cTexture1d@chai3d@@MEAAXAEAUcRenderOptions@2@@Z)
+CTexture1d.obj : error LNK2019: símbolo externo __imp_glTexSubImage1D sin resolver al que se hace referencia en la función "protected: virtual void __cdecl chai3d::cTexture1d::update(struct chai3d::cRenderOptions &)" (?update@cTexture1d@chai3d@@MEAAXAEAUcRenderOptions@2@@Z)
+CTexture2d.obj : error LNK2019: símbolo externo __imp_glTexSubImage2D sin resolver al que se hace referencia en la función "protected: virtual void __cdecl chai3d::cTexture2d::update(struct chai3d::cRenderOptions &)" (?update@cTexture2d@chai3d@@MEAAXAEAUcRenderOptions@2@@Z)
+CMultiPoint.obj : error LNK2019: símbolo externo __imp_glPointSize sin resolver al que se hace referencia en la función "protected: virtual void __cdecl chai3d::cMultiPoint::renderPoints(struct chai3d::cRenderOptions &)" (?renderPoints@cMultiPoint@chai3d@@MEAAXAEAUcRenderOptions@2@@Z)
+CShapeCylinder.obj : error LNK2019: símbolo externo gluQuadricTexture sin resolver al que se hace referencia en la función "protected: virtual void __cdecl chai3d::cShapeCylinder::render(struct chai3d::cRenderOptions &)" (?render@cShapeCylinder@chai3d@@MEAAXAEAUcRenderOptions@2@@Z)
+CShapeSphere.obj : error LNK2001: símbolo externo gluQuadricTexture sin resolver
+CShapeEllipsoid.obj : error LNK2001: símbolo externo gluQuadricTexture sin resolver
+CShapeCylinder.obj : error LNK2019: símbolo externo gluQuadricOrientation sin resolver al que se hace referencia en la función "protected: virtual void __cdecl chai3d::cShapeCylinder::render(struct chai3d::cRenderOptions &)" (?render@cShapeCylinder@chai3d@@MEAAXAEAUcRenderOptions@2@@Z)
+CVoxelObject.obj : error LNK2019: símbolo externo __imp_glGetIntegerv sin resolver al que se hace referencia en la función "protected: virtual void __cdecl chai3d::cVoxelObject::render(struct chai3d::cRenderOptions &)" (?render@cVoxelObject@chai3d@@MEAAXAEAUcRenderOptions@2@@Z)
+C:\Users\Oskar-MSI\Desktop\aqui\chai3d.dll : fatal error LNK1120: 97 externos sin resolver

@@ -1,0 +1,3 @@
+﻿  04-bullet-tool.cpp
+04-bullet-tool.obj : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/SAFESEH'
+  04-bullet-tool-VS2015.vcxproj -> C:\Users\Oskar-MSI\Desktop\chai3d-3.2.0\modules\BULLET\examples\GLFW\04-bullet-tool\../../../bin/win-Win32/04-bullet-tool.exe
