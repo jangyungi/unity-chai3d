@@ -44,7 +44,8 @@ public class HapticNativePlugin
     {
         var pos1 = GetProxyPosition();
         var pos2 = GetDevicePosition();
-        return !(pos1.x == pos2.x && pos1.y == pos2.y && pos1.y == pos2.y);
+        //return !(pos1.x == pos2.x && pos1.y == pos2.y && pos1.y == pos2.y);
+		return !(pos1.x == pos2.x && pos1.y == pos2.y && pos1.z == pos2.z);
     }
 
     [DllImport("UnityPlugin")]

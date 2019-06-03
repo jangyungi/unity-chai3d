@@ -1,7 +1,32 @@
 ﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  UnityCHAI3DPlugin.cpp
+UnityCHAI3DPlugin.cpp(48): warning C4273: 'prepareHaptics': inconsistent dll linkage
+  c:\users\oskar-msi\documents\github\unity-chai3d\chai3d-3.2.0\modules\unity\src\plugin\unityplugin\UnityCHAI3DPlugin.h(8): note: see previous definition of 'prepareHaptics'
+UnityCHAI3DPlugin.cpp(107): warning C4273: 'startHaptics': inconsistent dll linkage
+  c:\users\oskar-msi\documents\github\unity-chai3d\chai3d-3.2.0\modules\unity\src\plugin\unityplugin\UnityCHAI3DPlugin.h(9): note: see previous definition of 'startHaptics'
+UnityCHAI3DPlugin.cpp(120): warning C4273: 'stopHaptics': inconsistent dll linkage
+  c:\users\oskar-msi\documents\github\unity-chai3d\chai3d-3.2.0\modules\unity\src\plugin\unityplugin\UnityCHAI3DPlugin.h(10): note: see previous definition of 'stopHaptics'
+UnityCHAI3DPlugin.cpp(186): warning C4273: 'getProxyPosition': inconsistent dll linkage
+  c:\users\oskar-msi\documents\github\unity-chai3d\chai3d-3.2.0\modules\unity\src\plugin\unityplugin\UnityCHAI3DPlugin.h(13): note: see previous definition of 'getProxyPosition'
+UnityCHAI3DPlugin.cpp(203): warning C4273: 'getDevicePosition': inconsistent dll linkage
+  c:\users\oskar-msi\documents\github\unity-chai3d\chai3d-3.2.0\modules\unity\src\plugin\unityplugin\UnityCHAI3DPlugin.h(14): note: see previous definition of 'getDevicePosition'
+UnityCHAI3DPlugin.cpp(220): warning C4273: 'isTouching': inconsistent dll linkage
+  c:\users\oskar-msi\documents\github\unity-chai3d\chai3d-3.2.0\modules\unity\src\plugin\unityplugin\UnityCHAI3DPlugin.h(16): note: see previous definition of 'isTouching'
+UnityCHAI3DPlugin.cpp(225): warning C4273: 'isButtonPressed': inconsistent dll linkage
+  c:\users\oskar-msi\documents\github\unity-chai3d\chai3d-3.2.0\modules\unity\src\plugin\unityplugin\UnityCHAI3DPlugin.h(17): note: see previous definition of 'isButtonPressed'
+UnityCHAI3DPlugin.cpp(230): warning C4273: 'addObject': inconsistent dll linkage
+  c:\users\oskar-msi\documents\github\unity-chai3d\chai3d-3.2.0\modules\unity\src\plugin\unityplugin\UnityCHAI3DPlugin.h(19): note: see previous definition of 'addObject'
+UnityCHAI3DPlugin.cpp(296): warning C4273: 'addModifiableObject': inconsistent dll linkage
+  c:\users\oskar-msi\documents\github\unity-chai3d\chai3d-3.2.0\modules\unity\src\plugin\unityplugin\UnityCHAI3DPlugin.h(20): note: see previous definition of 'addModifiableObject'
+UnityCHAI3DPlugin.cpp(362): warning C4273: 'translateObjects': inconsistent dll linkage
+  c:\users\oskar-msi\documents\github\unity-chai3d\chai3d-3.2.0\modules\unity\src\plugin\unityplugin\UnityCHAI3DPlugin.h(22): note: see previous definition of 'translateObjects'
+UnityCHAI3DPlugin.cpp(375): warning C4273: 'setHapticPosition': inconsistent dll linkage
+  c:\users\oskar-msi\documents\github\unity-chai3d\chai3d-3.2.0\modules\unity\src\plugin\unityplugin\UnityCHAI3DPlugin.h(23): note: see previous definition of 'setHapticPosition'
+UnityCHAI3DPlugin.cpp(381): warning C4273: 'setHapticRotation': inconsistent dll linkage
+  c:\users\oskar-msi\documents\github\unity-chai3d\chai3d-3.2.0\modules\unity\src\plugin\unityplugin\UnityCHAI3DPlugin.h(24): note: see previous definition of 'setHapticRotation'
      Creating library ..\..\..\..\..\..\Assets\Plugins\UnityPlugin.lib and object ..\..\..\..\..\..\Assets\Plugins\UnityPlugin.exp
   Generating code
+  All 244 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
-  All 242 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   UnityPlugin.vcxproj -> C:\Users\Oskar-MSI\Documents\GitHub\unity-chai3d\chai3d-3.2.0\modules\Unity\src\plugin\UnityPlugin\..\..\..\..\..\..\Assets\Plugins\UnityPlugin.dll
   UnityPlugin.vcxproj -> ..\..\..\..\..\..\Assets\Plugins\UnityPlugin.pdb (Full PDB)

@@ -42,6 +42,8 @@ extern "C" {
 	// get spec of haptic device
 	cHapticDeviceInfo hapticDeviceInfo;
 
+	
+
 	bool prepareHaptics(double hapticScale)
 	{
 		//--------------------------------------------------------------------------
@@ -58,9 +60,14 @@ extern "C" {
 		// create a haptic device handler
 		handler = new cHapticDeviceHandler();
 
+		//handler->update();
+
 		// get access to the first available haptic device
 		if (!handler->getDevice(hapticDevice, 0))
 			return false;
+
+		// open connection to haptic device
+		hapticDevice->open();
 
 		// retrieve information about the current haptic device
 		hapticDeviceInfo = hapticDevice->getSpecifications();
@@ -96,28 +103,33 @@ extern "C" {
 
 		return true;
 	}
-
+	cThread* hapticsThread = new cThread();
 	void startHaptics(void)
 	{
 		//--------------------------------------------------------------------------
 		// START SIMULATION
 		//--------------------------------------------------------------------------
 
+		//hilo
+		
+
 		// create a thread which starts the main haptics rendering loop
-		cThread* hapticsThread = new cThread();
 		hapticsThread->start(updateHaptics, CTHREAD_PRIORITY_HAPTICS);
 	}
 
 	void stopHaptics(void)
 	{
 		// stop the simulation
-		simulationRunning = false;
+		//simulationRunning = false;
 
-		// wait for graphics and haptics loops to terminate
-		while (!simulationFinished) { cSleepMs(100); }
+		//// wait for graphics and haptics loops to terminate
+		//while (!simulationFinished) { cSleepMs(100); }
 
-		// close haptic device
-		tool->stop();
+		//// close haptic device
+		//tool->stop();
+
+		//mato hilo
+		hapticsThread->stop();
 	}
 
 	void updateHaptics(void)
@@ -216,6 +228,72 @@ extern "C" {
 	}
 
 	void addObject(double objectPos[], double objectScale[], double objectRotation[], double vertPos[][3], double normals[][3], int vertNum, int triPos[][3], int triNum)
+	{
+		// read the scale factor between the physical workspace of the haptic
+		// device and the virtual workspace defined for the tool
+		double workspaceScaleFactor = tool->getWorkspaceScaleFactor();
+
+		// stiffness properties
+		double maxStiffness = hapticDeviceInfo.m_maxLinearStiffness / workspaceScaleFactor;
+
+		cMesh* object = new cMesh();
+
+		// set vertices
+		for (int i = 0; i < vertNum; i++)
+		{
+			int vertex = object->newVertex();
+
+			convertXYZToCHAI3D(vertPos[i]);
+			cVector3d vertPosVecotor3 = cVector3d(vertPos[i][0], vertPos[i][1], vertPos[i][2]);
+			convertXYZToCHAI3D(normals[i]);
+			cVector3d vertNormalVecotor3 = cVector3d(normals[i][0], normals[i][1], normals[i][2]);
+
+			object->m_vertices->setLocalPos(vertex, vertPosVecotor3);
+			object->m_vertices->setNormal(vertex, vertNormalVecotor3);
+		}
+
+		// set triangles
+		for (int i = 0; i < triNum; i++)
+		{
+			object->newTriangle(triPos[i][2], triPos[i][1], triPos[i][0]);
+		}
+
+		// add object to world
+		world->addChild(object);
+
+		// set the position of the object at the center of the world
+		convertXYZToCHAI3D(objectPos);
+		object->setLocalPos(objectPos[0], objectPos[1], objectPos[2]);
+
+		// scale object
+		object->scaleXYZ(objectScale[2], objectScale[0], objectScale[1]);
+
+		// rotate object
+		object->rotateExtrinsicEulerAnglesDeg(objectRotation[2], -1 * objectRotation[0], -1 * objectRotation[1], C_EULER_ORDER_XYZ);
+
+		// define a default stiffness for the object
+		object->m_material->setStiffness(0.3 * maxStiffness);
+
+		// define some static friction
+		object->m_material->setStaticFriction(0.5);
+
+		// define some dynamic friction
+		object->m_material->setDynamicFriction(0.5);
+
+		// render triangles haptically
+		object->m_material->setHapticTriangleSides(true, false);
+
+		// disable culling
+		object->setUseCulling(false, true);
+
+		// compute a boundary box
+		object->computeBoundaryBox(true);
+
+		// compute collision detection algorithm
+		object->createAABBCollisionDetector(toolRadius);
+	}
+
+	void addModifiableObject(double objectPos[], double objectScale[], double objectRotation[], double vertPos[][3], double normals[][3], int vertNum, int triPos[][3], int triNum)
 	{
 		// read the scale factor between the physical workspace of the haptic
 		// device and the virtual workspace defined for the tool
