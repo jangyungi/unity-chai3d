@@ -293,7 +293,7 @@ extern "C" {
 		object->createAABBCollisionDetector(toolRadius);
 	}
 
-	void addModifiableObject(double objectPos[], double objectScale[], double objectRotation[], double vertPos[][3], double normals[][3], int vertNum, int triPos[][3], int triNum)
+	void addModifiableObject(double objectPos[], double objectScale[], double objectRotation[], double vertPos[][3], double normals[][3], int vertNum, int triPos[][3], int triNum, double stiffness, double staticFriction, double dynamicFriction, double damping, double viscosity)
 	{
 		// read the scale factor between the physical workspace of the haptic
 		// device and the virtual workspace defined for the tool
@@ -338,13 +338,19 @@ extern "C" {
 		object->rotateExtrinsicEulerAnglesDeg(objectRotation[2], -1 * objectRotation[0], -1 * objectRotation[1], C_EULER_ORDER_XYZ);
 
 		// define a default stiffness for the object
-		object->m_material->setStiffness(0.3 * maxStiffness);
+		object->m_material->setStiffness(stiffness);
 
 		// define some static friction
-		object->m_material->setStaticFriction(0.5);
+		object->m_material->setStaticFriction(staticFriction);
 
 		// define some dynamic friction
-		object->m_material->setDynamicFriction(0.5);
+		object->m_material->setDynamicFriction(dynamicFriction);
+
+		// set damping
+		object->m_material->setDamping(damping);
+
+		// set viscosity
+		object->m_material->setViscosity(viscosity);
 
 		// render triangles haptically
 		object->m_material->setHapticTriangleSides(true, false);

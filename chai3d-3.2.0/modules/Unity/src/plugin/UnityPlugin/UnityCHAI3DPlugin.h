@@ -17,7 +17,7 @@ extern "C" {
 	FUNCDLL_API bool isButtonPressed(int buttonId);
 
 	FUNCDLL_API void addObject(double objectPos[], double objectScale[], double objectRotation[], double vertPos[][3], double normals[][3], int vertNum, int tris[][3], int triNum);
-	FUNCDLL_API void addModifiableObject(double objectPos[], double objectScale[], double objectRotation[], double vertPos[][3], double normals[][3], int vertNum, int tris[][3], int triNum);
+	FUNCDLL_API void addModifiableObject(double objectPos[], double objectScale[], double objectRotation[], double vertPos[][3], double normals[][3], int vertNum, int triPos[][3], int triNum, double stiffness, double staticFriction, double dynamicFriction, double damping, double viscosity);
 
 	FUNCDLL_API void translateObjects(double translation[]);
 	FUNCDLL_API void setHapticPosition(double position[]);
