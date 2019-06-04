@@ -128,8 +128,10 @@ extern "C" {
 		//// close haptic device
 		//tool->stop();
 
-		//mato hilo
-		hapticsThread->stop();
+		//// delete resources
+		//delete hapticsThread;
+		//delete world;
+		//delete handler;
 	}
 
 	void updateHaptics(void)
@@ -349,8 +351,12 @@ extern "C" {
 		// set damping
 		object->m_material->setDamping(damping);
 
-		// set viscosity
+		// set haptic properties
 		object->m_material->setViscosity(viscosity);
+
+		// create a haptic viscous effect
+		cGenericEffect* newEffect = new cEffectViscosity(object);
+		object->addEffect(newEffect);
 
 		// render triangles haptically
 		object->m_material->setHapticTriangleSides(true, false);

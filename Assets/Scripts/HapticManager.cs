@@ -22,7 +22,6 @@ public class HapticManager : MonoBehaviour
             isHapticAvail = false;
 
         isHapticAvail = HapticNativePlugin.prepareHaptics(0.3d);
-		Debug.Log(isHapticAvail);
     }
 
 
@@ -34,8 +33,9 @@ public class HapticManager : MonoBehaviour
 
     private void OnDestroy()
     {
-        if (isHapticAvail)
-            HapticNativePlugin.stopHaptics();
+		Debug.Log("tu puta madre");
+        // if (isHapticAvail)
+            // HapticNativePlugin.stopHaptics();
     }
 
     private void Update()
