@@ -9,7 +9,7 @@ public class HapticManager : MonoBehaviour
 {
     public bool useHaptic;
     public static bool isHapticAvail;
-   
+    
     public GameObject leftHandIndex;
     private Vector3 originalPosition;
 
@@ -33,8 +33,9 @@ public class HapticManager : MonoBehaviour
 
     private void OnDestroy()
     {
-        if (isHapticAvail)
-            HapticNativePlugin.stopHaptics();
+		Debug.Log("tu puta madre");
+        // if (isHapticAvail)
+            // HapticNativePlugin.stopHaptics();
     }
 
     private void Update()

@@ -3,6 +3,11 @@ using System.Collections;
 
 public class TouchableObject : MonoBehaviour {
 
+	public double stiffness;
+	public double staticFriction;
+	public double dynamicFriction;
+	public double damping;
+	public double viscosity;
     public int objectId;
 
 	// Use this for initialization
@@ -22,6 +27,6 @@ public class TouchableObject : MonoBehaviour {
             triangles[i, 2] = mesh.triangles[3 * i + 2];
         }
 
-        objectId = HapticNativePlugin.AddObject(this.transform.localPosition - devicePosition.transform.localPosition, this.transform.localScale, this.transform.localRotation.eulerAngles, vertices, normals, mesh.vertices.Length, triangles, mesh.triangles.Length / 3);
+        objectId = HapticNativePlugin.AddModificableObject(this.transform.localPosition - devicePosition.transform.localPosition, this.transform.localScale, this.transform.localRotation.eulerAngles, vertices, normals, mesh.vertices.Length, triangles, mesh.triangles.Length / 3, stiffness, staticFriction, dynamicFriction, damping, viscosity);
     }
 }
